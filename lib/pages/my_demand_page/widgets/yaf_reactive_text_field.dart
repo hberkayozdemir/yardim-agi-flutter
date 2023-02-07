@@ -1,4 +1,4 @@
-import 'package:deprem_destek/theme/yaf_color.dart';
+import 'package:deprem_destek/theme/color/yaf_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
