@@ -1,3 +1,4 @@
+import 'package:deprem_destek/pages/my_demand_page/my_demand_page.dart';
 import 'package:flutter/material.dart';
 
 class DepremDestekApp extends StatefulWidget {
@@ -10,6 +11,9 @@ class DepremDestekApp extends StatefulWidget {
 class _DepremDestekAppState extends State<DepremDestekApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyDemandView(),
+    );
   }
 }

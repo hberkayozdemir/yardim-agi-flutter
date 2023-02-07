@@ -19,6 +19,7 @@ dependencies:
   flutter_bloc: 8.1.1
   collection:
   flutter_svg:
+  reactive_forms:
 
 dev_dependencies:
   flutter_test:
