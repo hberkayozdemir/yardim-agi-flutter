@@ -17,7 +17,8 @@ dependencies:
   firebase_auth: 4.2.5
   cloud_firestore: 4.3.1
   flutter_bloc: 8.1.1
-  collection: 1.16.0
+  collection:
+  flutter_svg:
 
 dev_dependencies:
   flutter_test:
@@ -29,3 +30,34 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/Inter/Inter-Black.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter/Inter-Book.ttf
+          weight: 400
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Inter/Inter-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Inter/Inter-MediumItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+          weight: 700
+          style: italic
